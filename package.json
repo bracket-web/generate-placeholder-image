@@ -5,6 +5,6 @@
     "image-size": "^0.9.3"
   },
   "scripts": {
-    "make-image": "node image.js"
+    "make-images": "node image.js"
   }
 }
