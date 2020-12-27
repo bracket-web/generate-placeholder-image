@@ -7,7 +7,7 @@ it's a cli tool for generating placeholder image with node.js Follow this step t
 - after that open that folder in terminal
 - then install necessary package by running command `npm install` or `yarn install`
 - after that copy your desire images to `source-images/`
-- then run `npm make-images` or `yarn make-images` command again on your terminal
+- then run `npm run make-images` or `yarn make-images` command again on your terminal
 - after that in your `source-images/` will have all generated dummy image with text to width and height.
 
 ### packages used (npm)
