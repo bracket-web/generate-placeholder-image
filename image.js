@@ -1,6 +1,6 @@
 const fs = require('fs');
 var read = require('fs-readdir-recursive');
-var sizeOf = require('image-size');
+const { imageSize: sizeOf } = require('image-size');
 const {
     createCanvas,
     loadImage
@@ -9,7 +9,7 @@ const srcDirectory = './source-images';
 filenames = read(srcDirectory);
 
 filenames.forEach(file => {
-    let dimentions = sizeOf(srcDirectory + '/' + file);
+    let dimentions = sizeOf(fs.readFileSync(srcDirectory + '/' + file));
     const {
         width,
         height

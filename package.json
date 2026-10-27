@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "canvas": "^2.6.1",
+    "canvas": "^3.2.3",
     "fs-readdir-recursive": "^1.1.0",
-    "image-size": "^0.9.3"
+    "image-size": "^2.0.4"
   },
   "scripts": {
     "make-images": "node image.js"
